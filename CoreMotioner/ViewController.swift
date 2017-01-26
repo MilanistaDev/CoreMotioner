@@ -400,7 +400,7 @@ class ViewController: UIViewController {
     /**
       相対高度・気圧
       起動したところからXX[m]
-      気圧は取得データは[kPa]なので10倍して[kPa]に
+      気圧は取得データは[kPa]なので10倍して[hPa]に
     */
     func acquireAltimeter() {
         
