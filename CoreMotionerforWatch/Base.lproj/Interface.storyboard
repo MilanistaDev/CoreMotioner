@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="88n-R2-nh5">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Top Interface Controller-->
+        <scene sceneID="xJc-Fr-t1I">
+            <objects>
+                <controller id="88n-R2-nh5" customClass="TopInterfaceController" customModule="CoreMotionerforWatch_Extension">
+                    <items>
+                        <label alignment="center" text="CoreMotioner" textAlignment="center" id="q1D-CQ-fM0">
+                            <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <separator alignment="left" id="7sR-wc-IAO"/>
+                        <button width="1" alignment="left" title="Pedometer" id="QnO-t5-ZlU">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" identifier="pedometerSegue" id="STM-pc-qFi"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Activity" id="yRc-iN-qew">
+                            <connections>
+                                <segue destination="peZ-RW-Qi7" kind="push" identifier="activitySegue" id="gYd-ZH-8do"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-239" y="-119"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CoreMotionerforWatch" customModuleProvider="target">
+                    <items>
+                        <imageView width="100" height="100" alignment="center" contentMode="scaleAspectFit" id="p0V-FQ-BYz"/>
+                        <label alignment="center" verticalAlignment="center" text="22" textAlignment="center" id="6ci-fd-p5T">
+                            <fontDescription key="font" type="system" pointSize="36"/>
+                            <variation key="device=watch38mm" verticalAlignment="bottom"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="eventTypeImageView" destination="p0V-FQ-BYz" id="HOe-Xd-MfZ"/>
+                        <outlet property="stepCountsLabel" destination="6ci-fd-p5T" id="Q90-Nl-pAe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="84" y="-119"/>
+        </scene>
+        <!--Avtivity Interface Controller-->
+        <scene sceneID="TML-cU-DT3">
+            <objects>
+                <controller id="peZ-RW-Qi7" customClass="AvtivityInterfaceController" customModule="CoreMotionerforWatch_Extension">
+                    <items>
+                        <label alignment="center" text="-" id="CZq-sw-tho"/>
+                        <imageView width="100" height="100" alignment="center" contentMode="scaleAspectFit" id="32a-KH-7Po"/>
+                        <imageView width="36" height="36" alignment="right" contentMode="scaleAspectFit" id="QBD-sD-Pzi"/>
+                    </items>
+                    <connections>
+                        <outlet property="confidenceLabel" destination="CZq-sw-tho" id="IER-Kq-7Qj"/>
+                        <outlet property="mainActivityImage" destination="32a-KH-7Po" id="NRZ-Oh-dlu"/>
+                        <outlet property="subActivityImage" destination="QBD-sD-Pzi" id="IJO-Cb-O7U"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="84" y="170.5"/>
+        </scene>
+    </scenes>
+</document>

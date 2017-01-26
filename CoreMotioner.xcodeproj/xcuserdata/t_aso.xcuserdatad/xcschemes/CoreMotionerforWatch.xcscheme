@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "19AE408B1E305DEF00D509EF"
+               BuildableName = "CoreMotionerforWatch.app"
+               BlueprintName = "CoreMotionerforWatch"
+               ReferencedContainer = "container:CoreMotioner.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "19D91B171E25F7B100AE738D"
                BuildableName = "CoreMotioner.app"
                BlueprintName = "CoreMotioner"
@@ -32,9 +46,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "19D91B171E25F7B100AE738D"
-            BuildableName = "CoreMotioner.app"
-            BlueprintName = "CoreMotioner"
+            BlueprintIdentifier = "19AE408B1E305DEF00D509EF"
+            BuildableName = "CoreMotionerforWatch.app"
+            BlueprintName = "CoreMotionerforWatch"
             ReferencedContainer = "container:CoreMotioner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -51,16 +65,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/CoreMotioner">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "19D91B171E25F7B100AE738D"
-            BuildableName = "CoreMotioner.app"
-            BlueprintName = "CoreMotioner"
+            BlueprintIdentifier = "19AE408B1E305DEF00D509EF"
+            BuildableName = "CoreMotionerforWatch.app"
+            BlueprintName = "CoreMotionerforWatch"
             ReferencedContainer = "container:CoreMotioner.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "19AE408B1E305DEF00D509EF"
+            BuildableName = "CoreMotionerforWatch.app"
+            BlueprintName = "CoreMotionerforWatch"
+            ReferencedContainer = "container:CoreMotioner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +95,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/CoreMotioner">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "19D91B171E25F7B100AE738D"
-            BuildableName = "CoreMotioner.app"
-            BlueprintName = "CoreMotioner"
+            BlueprintIdentifier = "19AE408B1E305DEF00D509EF"
+            BuildableName = "CoreMotionerforWatch.app"
+            BlueprintName = "CoreMotionerforWatch"
             ReferencedContainer = "container:CoreMotioner.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "19AE408B1E305DEF00D509EF"
+            BuildableName = "CoreMotionerforWatch.app"
+            BlueprintName = "CoreMotionerforWatch"
+            ReferencedContainer = "container:CoreMotioner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

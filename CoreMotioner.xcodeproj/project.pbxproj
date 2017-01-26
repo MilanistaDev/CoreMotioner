@@ -7,14 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19974B971E30A6E7000845D3 /* TopInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19974B961E30A6E7000845D3 /* TopInterfaceController.swift */; };
+		19974B9E1E30C181000845D3 /* AvtivityInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19974B9D1E30C181000845D3 /* AvtivityInterfaceController.swift */; };
+		19AE40901E305DEF00D509EF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AE408E1E305DEF00D509EF /* Interface.storyboard */; };
+		19AE40921E305DEF00D509EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AE40911E305DEF00D509EF /* Assets.xcassets */; };
+		19AE40991E305DEF00D509EF /* CoreMotionerforWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19AE40981E305DEF00D509EF /* CoreMotionerforWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19AE409E1E305DEF00D509EF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE409D1E305DEF00D509EF /* InterfaceController.swift */; };
+		19AE40A01E305DEF00D509EF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE409F1E305DEF00D509EF /* ExtensionDelegate.swift */; };
+		19AE40A21E305DEF00D509EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AE40A11E305DEF00D509EF /* Assets.xcassets */; };
+		19AE40A61E305DEF00D509EF /* CoreMotionerforWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 19AE408C1E305DEF00D509EF /* CoreMotionerforWatch.app */; };
 		19D91B1C1E25F7B100AE738D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D91B1B1E25F7B100AE738D /* AppDelegate.swift */; };
 		19D91B1E1E25F7B100AE738D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D91B1D1E25F7B100AE738D /* ViewController.swift */; };
 		19D91B211E25F7B100AE738D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D91B1F1E25F7B100AE738D /* Main.storyboard */; };
 		19D91B231E25F7B100AE738D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D91B221E25F7B100AE738D /* Assets.xcassets */; };
 		19D91B261E25F7B100AE738D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D91B241E25F7B100AE738D /* LaunchScreen.storyboard */; };
+		19D91B331E25FF7700AE738D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D91B321E25FF7700AE738D /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		19AE409A1E305DEF00D509EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D91B101E25F7B100AE738D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19AE40971E305DEF00D509EF;
+			remoteInfo = "CoreMotionerforWatch Extension";
+		};
+		19AE40A41E305DEF00D509EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D91B101E25F7B100AE738D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19AE408B1E305DEF00D509EF;
+			remoteInfo = CoreMotionerforWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19AE40AC1E305DEF00D509EF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				19AE40991E305DEF00D509EF /* CoreMotionerforWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AE40AE1E305DEF00D509EF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				19AE40A61E305DEF00D509EF /* CoreMotionerforWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		19974B961E30A6E7000845D3 /* TopInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopInterfaceController.swift; sourceTree = "<group>"; };
+		19974B9D1E30C181000845D3 /* AvtivityInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvtivityInterfaceController.swift; sourceTree = "<group>"; };
+		19AE408C1E305DEF00D509EF /* CoreMotionerforWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionerforWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AE408F1E305DEF00D509EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		19AE40911E305DEF00D509EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19AE40931E305DEF00D509EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19AE40981E305DEF00D509EF /* CoreMotionerforWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoreMotionerforWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AE409D1E305DEF00D509EF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		19AE409F1E305DEF00D509EF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		19AE40A11E305DEF00D509EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19AE40A31E305DEF00D509EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D91B181E25F7B100AE738D /* CoreMotioner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotioner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D91B1B1E25F7B100AE738D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D91B1D1E25F7B100AE738D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +85,59 @@
 		19D91B221E25F7B100AE738D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D91B251E25F7B100AE738D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D91B271E25F7B100AE738D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D91B321E25FF7700AE738D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19D91B151E25F7B100AE738D /* Frameworks */ = {
+		19AE40951E305DEF00D509EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19D91B151E25F7B100AE738D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D91B331E25FF7700AE738D /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19AE408D1E305DEF00D509EF /* CoreMotionerforWatch */ = {
+			isa = PBXGroup;
+			children = (
+				19AE408E1E305DEF00D509EF /* Interface.storyboard */,
+				19AE40911E305DEF00D509EF /* Assets.xcassets */,
+				19AE40931E305DEF00D509EF /* Info.plist */,
+			);
+			path = CoreMotionerforWatch;
+			sourceTree = "<group>";
+		};
+		19AE409C1E305DEF00D509EF /* CoreMotionerforWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				19974B961E30A6E7000845D3 /* TopInterfaceController.swift */,
+				19974B9D1E30C181000845D3 /* AvtivityInterfaceController.swift */,
+				19AE409D1E305DEF00D509EF /* InterfaceController.swift */,
+				19AE409F1E305DEF00D509EF /* ExtensionDelegate.swift */,
+				19AE40A11E305DEF00D509EF /* Assets.xcassets */,
+				19AE40A31E305DEF00D509EF /* Info.plist */,
+			);
+			path = "CoreMotionerforWatch Extension";
+			sourceTree = "<group>";
+		};
 		19D91B0F1E25F7B100AE738D = {
 			isa = PBXGroup;
 			children = (
 				19D91B1A1E25F7B100AE738D /* CoreMotioner */,
+				19AE408D1E305DEF00D509EF /* CoreMotionerforWatch */,
+				19AE409C1E305DEF00D509EF /* CoreMotionerforWatch Extension */,
 				19D91B191E25F7B100AE738D /* Products */,
+				19D91B311E25FF7700AE738D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				19D91B181E25F7B100AE738D /* CoreMotioner.app */,
+				19AE408C1E305DEF00D509EF /* CoreMotionerforWatch.app */,
+				19AE40981E305DEF00D509EF /* CoreMotionerforWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,9 +164,51 @@
 			path = CoreMotioner;
 			sourceTree = "<group>";
 		};
+		19D91B311E25FF7700AE738D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D91B321E25FF7700AE738D /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		19AE408B1E305DEF00D509EF /* CoreMotionerforWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AE40AD1E305DEF00D509EF /* Build configuration list for PBXNativeTarget "CoreMotionerforWatch" */;
+			buildPhases = (
+				19AE408A1E305DEF00D509EF /* Resources */,
+				19AE40AC1E305DEF00D509EF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19AE409B1E305DEF00D509EF /* PBXTargetDependency */,
+			);
+			name = CoreMotionerforWatch;
+			productName = CoreMotionerforWatch;
+			productReference = 19AE408C1E305DEF00D509EF /* CoreMotionerforWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		19AE40971E305DEF00D509EF /* CoreMotionerforWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AE40AB1E305DEF00D509EF /* Build configuration list for PBXNativeTarget "CoreMotionerforWatch Extension" */;
+			buildPhases = (
+				19AE40941E305DEF00D509EF /* Sources */,
+				19AE40951E305DEF00D509EF /* Frameworks */,
+				19AE40961E305DEF00D509EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreMotionerforWatch Extension";
+			productName = "CoreMotionerforWatch Extension";
+			productReference = 19AE40981E305DEF00D509EF /* CoreMotionerforWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		19D91B171E25F7B100AE738D /* CoreMotioner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D91B2A1E25F7B100AE738D /* Build configuration list for PBXNativeTarget "CoreMotioner" */;
@@ -74,10 +216,12 @@
 				19D91B141E25F7B100AE738D /* Sources */,
 				19D91B151E25F7B100AE738D /* Frameworks */,
 				19D91B161E25F7B100AE738D /* Resources */,
+				19AE40AE1E305DEF00D509EF /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				19AE40A51E305DEF00D509EF /* PBXTargetDependency */,
 			);
 			name = CoreMotioner;
 			productName = CoreMotioner;
@@ -94,6 +238,16 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "麻生 拓弥";
 				TargetAttributes = {
+					19AE408B1E305DEF00D509EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M7ZGYSAKB;
+						ProvisioningStyle = Automatic;
+					};
+					19AE40971E305DEF00D509EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7M7ZGYSAKB;
+						ProvisioningStyle = Automatic;
+					};
 					19D91B171E25F7B100AE738D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7M7ZGYSAKB;
@@ -115,11 +269,30 @@
 			projectRoot = "";
 			targets = (
 				19D91B171E25F7B100AE738D /* CoreMotioner */,
+				19AE408B1E305DEF00D509EF /* CoreMotionerforWatch */,
+				19AE40971E305DEF00D509EF /* CoreMotionerforWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		19AE408A1E305DEF00D509EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AE40921E305DEF00D509EF /* Assets.xcassets in Resources */,
+				19AE40901E305DEF00D509EF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AE40961E305DEF00D509EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AE40A21E305DEF00D509EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19D91B161E25F7B100AE738D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +306,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19AE40941E305DEF00D509EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AE40A01E305DEF00D509EF /* ExtensionDelegate.swift in Sources */,
+				19AE409E1E305DEF00D509EF /* InterfaceController.swift in Sources */,
+				19974B971E30A6E7000845D3 /* TopInterfaceController.swift in Sources */,
+				19974B9E1E30C181000845D3 /* AvtivityInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19D91B141E25F7B100AE738D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,7 +328,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		19AE409B1E305DEF00D509EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19AE40971E305DEF00D509EF /* CoreMotionerforWatch Extension */;
+			targetProxy = 19AE409A1E305DEF00D509EF /* PBXContainerItemProxy */;
+		};
+		19AE40A51E305DEF00D509EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19AE408B1E305DEF00D509EF /* CoreMotionerforWatch */;
+			targetProxy = 19AE40A41E305DEF00D509EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		19AE408E1E305DEF00D509EF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AE408F1E305DEF00D509EF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		19D91B1F1E25F7B100AE738D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -164,6 +369,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		19AE40A71E305DEF00D509EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				IBSC_MODULE = CoreMotionerforWatch_Extension;
+				INFOPLIST_FILE = CoreMotionerforWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.CoreMotioner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		19AE40A81E305DEF00D509EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				IBSC_MODULE = CoreMotionerforWatch_Extension;
+				INFOPLIST_FILE = CoreMotionerforWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.CoreMotioner.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		19AE40A91E305DEF00D509EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				INFOPLIST_FILE = "CoreMotionerforWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.CoreMotioner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		19AE40AA1E305DEF00D509EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				INFOPLIST_FILE = "CoreMotionerforWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.CoreMotioner.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 		19D91B281E25F7B100AE738D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -286,6 +561,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19AE40AB1E305DEF00D509EF /* Build configuration list for PBXNativeTarget "CoreMotionerforWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AE40A91E305DEF00D509EF /* Debug */,
+				19AE40AA1E305DEF00D509EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AE40AD1E305DEF00D509EF /* Build configuration list for PBXNativeTarget "CoreMotionerforWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AE40A71E305DEF00D509EF /* Debug */,
+				19AE40A81E305DEF00D509EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		19D91B131E25F7B100AE738D /* Build configuration list for PBXProject "CoreMotioner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -302,6 +595,7 @@
 				19D91B2C1E25F7B100AE738D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
