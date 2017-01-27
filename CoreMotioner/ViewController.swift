@@ -317,7 +317,7 @@ class ViewController: UIViewController {
                     self.distanceLabel.text = NSString(format: "%.2f[km]", Double(self.moveDistance)/1000) as String
                 }
 
-                // 階段の上り下り数取得
+                // 3mくらいフロアの上り下り数取得
                 if let upFloor = exData.floorsAscended {
                     self.floorAscended = upFloor
                     self.floorAscendedLabel.text = self.floorAscended.description
