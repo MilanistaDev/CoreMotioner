@@ -161,7 +161,8 @@ class ViewController: UIViewController {
         if (!CMPedometer.isDistanceAvailable()) {
             self.distanceLabel.text = "Not supported"
         }
-        // 階段の上り下り数取得可能か
+        // 3mくらいフロアの上り下り数取得可能か
+        // エレベータは含まないらしい
         if (!CMPedometer.isFloorCountingAvailable()) {
             self.floorAscendedLabel.text = "Not supported"
             self.floorDescendedLabel.text = "Not supported"
